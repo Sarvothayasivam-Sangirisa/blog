@@ -1,27 +1,17 @@
 import React from 'react';
 
 
-
-const Posts = () => {
-  // Example points with coordinates
-  const points = [
-    { top: '10%', left: '10%' },
-    { top: '30%', left: '50%' },
-    { top: '70%', left: '20%' },
-    { top: '50%', left: '80%' }
-  ];
-
+function Posts() {
   return (
-    <div className="points-box">
-      {points.map((point, index) => (
-        <div
-          key={index}
-          className="point"
-          style={{ top: point.top, left: point.left }}
-        ></div>
-      ))}
+    <div>
+      <div className="box">
+      <div className="point top-left"></div>
+      <div className="point top-right"></div>
+      <div className="point bottom-left"></div>
+      <div className="point bottom-right"></div>
+    </div>
     </div>
   );
-};
+}
 
 export default Posts;
