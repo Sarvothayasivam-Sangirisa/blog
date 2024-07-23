@@ -194,36 +194,20 @@ nav {
     width: 200px;
     height: 200px;
     border: 2px solid black;
-    margin: 20px;
+    margin-left: 720px;
+    margin-top: 20px;
+    
   }
-  
-  .point {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    border-radius: 50%;
+  .box1{
+    text-align: justify;
+    margin-top: 14px;
+    margin-left: 10px;
+    
   }
-  
-  .top-left {
-    top: 0;
-    left: 0;
-  }
-  
-  .top-right {
-    top: 0;
-    right: 0;
-  }
-  
-  .bottom-left {
-    bottom: 0;
-    left: 0;
-  }
-  
-  .bottom-right {
-    bottom: 0;
-    right: 0;
-  }
+  .box1 a{color: black;}
+ 
+ 
+
 
   
   

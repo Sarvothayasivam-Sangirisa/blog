@@ -5,10 +5,10 @@ function Posts() {
   return (
     <div>
       <div className="box">
-      <div className="point top-left"></div>
-      <div className="point top-right"></div>
-      <div className="point bottom-left"></div>
-      <div className="point bottom-right"></div>
+      <div className="box1"><a href="#post1">JAVASCRIPT </a></div>
+      <div className="box1"> <a href="#post3">Algorithm</a></div>
+      <div className="box1"><a href="#post4">ComputerNetwork</a></div>
+      <div className="box1"><a href="#post2">Data Structure</a></div>
     </div>
     </div>
   );
