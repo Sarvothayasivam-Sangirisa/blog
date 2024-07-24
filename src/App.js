@@ -1,4 +1,9 @@
 import React from 'react';
+import { 
+  BrowserRouter as Router, 
+  Routes, 
+  Route 
+} from "react-router-dom"; 
 import BlogNav from './Components/BlogNav';
 import Posts from './Components/Posts';
 import Post1 from './Components/Post1';
@@ -13,12 +18,17 @@ import '/home/sangirisha/Documents/blog/src/App.css';
 function App() {
   return (
     <>
+
+<Router>
       <BlogNav />
-      <Posts />
-      <Post1 />
-      <Post2 />
-      <Post3 />
-      <Post4 />
+      <Routes> 
+        <Route path="/posts" element={<Posts />} /> 
+        <Route path="/post1" element={<Post1 />} /> 
+        <Route path="/post2" element={<Post2 />} />
+        <Route path="/post3" element={<Post3 />} /> 
+        <Route path="/post4" element={<Post4 />} /> 
+      </Routes>
+    </Router>
     </>
   );
 }
